@@ -1,0 +1,15 @@
+@media (min-width:1900px){
+   .Our-Range-Service-sec .container{
+      max-width: 100%;
+   }
+}
+
+@media (max-width:1000px) {
+     .header-nav-options-links{
+        display: none;
+     }
+
+     .nav-bar-btn{
+        display: none;
+     }
+}

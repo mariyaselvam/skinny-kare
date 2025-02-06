@@ -1,0 +1,312 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+h1 {
+    font-family: "Inter";
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65.35px;
+}
+
+h2{
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+}
+
+h6 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+
+.h8{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: #757575;
+}
+
+:root {
+    --primary: rgba(255, 0, 161, 1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+span {
+    display: block;
+}
+
+a:hover {
+    color: black;
+}
+
+body {
+    font-family: "Inter";
+}
+
+.header-sec {
+    position: fixed;
+    top: 50px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 19px 0px;
+    z-index: 10;
+}   
+
+.banner-main-tit {
+    margin-bottom: 30px;
+}
+
+.banner-main-tit span {
+    display: inline-block;
+}
+
+.banner-sec-cont-wraper p {
+    margin-bottom: 26px;
+}
+
+.primary-btn {
+    padding: 16px;
+    background-color: var(--primary);
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+.primary-btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--primary);
+}
+
+.secondary-btn {
+    border: 1px solid var(--primary);
+    padding: 16px;
+    border-radius: 5px;
+    width: max-content;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+}
+
+.secondary-btn:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-nav-options-links {
+    display: flex;
+    gap: 65px;
+}
+
+.header-sec-nav-warper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-hilights-card-child {
+    padding: 19px 15px;
+}
+
+.banner-sec {
+    padding: 253px 0px;
+    background-color: rgb(187, 186, 186);
+    background: url("../images/Home/Banner/banner-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-hilights-card {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.banner-hilights-card p {
+    margin: 0px;
+}
+
+.banner-hilights-card-midile-child {
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+}
+
+.banner-sec-btns-wrap {
+    display: flex;
+    gap: 24px;
+}
+
+.banner-sec-mini-tit {
+    margin-bottom: 10px;
+}
+
+.mini-tit{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.about-us-sec{
+    padding: 150px 0px;
+}
+
+.about-us-cont-wraper{
+    padding: 35px 0px;
+}
+
+.about-us-cont-mini-tit{
+    margin-bottom: 10px;
+}
+
+.about-us-cont-main-tit{
+    margin-bottom: 16px;
+}
+
+.Revolution-call-to-action-sec{
+    padding: 150px 0px;
+    background-color: #e7e7e5;
+    position: relative;
+}
+
+.Revolution-call-to-action-main-img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 720px;
+    width: 50%;
+}
+
+.Revolution-call-to-action-main-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Our-Range-Service-sec{
+    padding: 150px 0px;
+}
+
+.Our-Range-Service-card-img{
+    height: 556px;
+    box-shadow: 0px 4px 10px 0px #00000040;
+    margin-bottom: 24px;
+
+}
+
+.Our-Range-Service-card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Our-Range-Service-swiper-wraper .swiper{
+   padding: 30px 0px;
+}
+
+.Our-Range-Service-tit-warper{
+    max-width: 80%;
+    margin: 0rem auto;
+}
+
+.Our-Range-Service-cards{
+    position: relative;
+    transition: 0.7s ease;
+}
+
+.Our-Range-Service-cards:hover{
+    transform: translateY(70px);
+}
+
+.Meet-Our-Specialist-sec{
+    padding: 150px 0px;
+    background-color: #e7e7e5;
+}
+
+.Meet-Our-Specialist-tit-warper{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Meet-Our-Specialist-card{
+    background-color: white;
+    text-align: center;
+    padding: 50px 37px;
+    border-radius: 24px;
+}
+
+.Meet-Our-Specialist-card-img{
+    margin-bottom: 20px;
+}
+
+.Meet-Our-Specialist-card-name{
+    margin-bottom: 12px;
+    color: var(--primary);
+}
+
+.Meet-Our-Specialist-position{
+    margin-bottom: 25px;
+}
+
+.Meet-Our-Specialist-social-links{
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+}
+
+.Meet-Our-Specialist-social-links img{
+    width: 36px;
+    height: 36px;
+    padding: 9px;
+    background-color: #ff00a11a;
+    border-radius: 8px;
+}
+
+.Meet-Our-Specialist-card p{
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.Before-After-Showcase-sec{
+    padding: 150px 0px;
+}
+
+.Before-After-Showcase-tit-wraper{
+     text-align: center;
+     margin-bottom: 80px;
+}
